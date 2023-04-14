@@ -7,13 +7,37 @@
     android:background="@color/gray"
     tools:context=".DashboardActivity">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewOne"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:iss_auto_cycle="true"
+            app:iss_corner_radius="6"
+            app:iss_delay="0"
+            app:iss_period="6000"
+            app:iss_text_align="CENTER" />
+
+    </androidx.cardview.widget.CardView>
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
+        android:layout_marginTop="220dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="180dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,30 +48,27 @@
             android:id="@+id/TVOne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
             android:text="Selamat Datang,"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/TVTwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
             android:text="NRP"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
+            android:textSize="14sp" />
 
     </LinearLayout>
-
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="16dp"
-        app:cardCornerRadius="8dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="280dp"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -55,13 +76,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="8dp"
             android:layout_marginBottom="16dp"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="24dp"
                 android:orientation="vertical"
                 android:weightSum="100">
 
@@ -104,10 +126,10 @@
 
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
                         android:layout_marginBottom="6dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/upload" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -115,7 +137,7 @@
                         android:fontFamily="@font/roboto"
                         android:text="Upload\nLaporan Kejadian"
                         android:textAlignment="center"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -131,10 +153,10 @@
 
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
                         android:layout_marginBottom="6dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/profile" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -142,7 +164,7 @@
                         android:fontFamily="@font/roboto"
                         android:text="Profil"
                         android:textAlignment="center"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -157,10 +179,10 @@
 
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
                         android:layout_marginBottom="6dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/cctv" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -168,7 +190,7 @@
                         android:fontFamily="@font/roboto"
                         android:text="Akses CCTV"
                         android:textAlignment="center"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -195,10 +217,10 @@
 
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
                         android:layout_marginBottom="6dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/logout" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -206,7 +228,7 @@
                         android:fontFamily="@font/roboto"
                         android:text="Keluar Aplikasi"
                         android:textAlignment="center"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
