@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Monitoring</string>
+
+    <string name="sebelum_login_pastikan_anda_memasukan_n_nrp_dan_password_dengan_benar">Sebelum Masuk, Pastikan Anda Memasukan \n NRP dan Password Dengan Benar</string>
+    <string name="selamat_datang">SELAMAT DATANG</string>
+    <string name="nrp">NRP</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Sign In</string>
+    <string name="monitoring_npengamanan_objek_vital_npolda_kalimantan_tengah">MONITORING\nPENGAMANAN OBJEK VITAL\nPOLDA KALIMANTAN TENGAH</string>
 </resources>
