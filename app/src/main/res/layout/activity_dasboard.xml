@@ -14,19 +14,19 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/calibri"
-        android:text="Selamat Datang,"
+        android:text="@string/welcome"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/TVTwo"
+        android:id="@+id/TVNrp"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="1234567890"
+        android:text="@string/NRP"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
@@ -36,12 +36,12 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/TVNames"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="4dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="Ahmad Jumaidi"
+        android:text="@string/names"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/TVOne"
