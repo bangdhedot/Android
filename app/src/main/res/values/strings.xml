@@ -7,4 +7,7 @@
     <string name="enter_password">Enter password</string>
     <string name="login">Sign In</string>
     <string name="monitoring_npengamanan_objek_vital_npolda_kalimantan_tengah">MONITORING\nPENGAMANAN OBJEK VITAL\nPOLDA KALIMANTAN TENGAH</string>
+    <string name="welcome">Selamat Datang,</string>
+    <string name="names">Ahmad Jumaidi</string>
+    <string name="NRP">1234567890</string>
 </resources>
