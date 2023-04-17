@@ -38,6 +38,7 @@ public class DashboardActivity extends AppCompatActivity {
         layoutOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                startActivity(new Intent(DashboardActivity.this, UploadLaporanActivity.class));
                 Toast.makeText(getApplicationContext(),"Satu", Toast.LENGTH_LONG).show();
             }
         });
