@@ -2,6 +2,7 @@ package com.example.mymonitoring;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -44,7 +45,8 @@ public class DashboardActivity extends AppCompatActivity {
         layoutTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Dua", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(DashboardActivity.this, ProfileActivity.class));
+                //Toast.makeText(getApplicationContext(),"Dua", Toast.LENGTH_LONG).show();
             }
         });
 

@@ -20,7 +20,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="0dp"
@@ -109,8 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="1dp"
             android:layout_marginTop="85dp"
-            android:background="#80D1D1D1"
-            >
+            android:background="#80D1D1D1">
 
         </View>
 
