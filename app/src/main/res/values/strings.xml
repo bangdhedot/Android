@@ -10,4 +10,6 @@
     <string name="welcome">Selamat Datang,</string>
     <string name="names">Ahmad Jumaidi</string>
     <string name="NRP">1234567890</string>
+    <string name="informasi_detail_laporan">Informasi Detail Laporan</string>
+    <string name="Judul_laporan">Laporan</string>
 </resources>
