@@ -3,9 +3,12 @@ package com.example.mymonitoring;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.Media;
@@ -23,16 +26,30 @@ public class CameraActivity extends AppCompatActivity implements MediaPlayer.Eve
     private ProgressDialog progressDialog;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
+
+        ImageView BackButton = findViewById(R.id.Back);
 
         libVlc = new LibVLC(this);
         mediaPlayer = new MediaPlayer(libVlc);
         mediaPlayer.setEventListener(this);
         videoLayout = findViewById(R.id.videoLayout);
         progressDialog = new ProgressDialog(this);
+
+
+
+        BackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+
     }
 
     @Override
