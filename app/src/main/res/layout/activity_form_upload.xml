@@ -171,7 +171,7 @@
                         android:layout_height="160dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/nunito"
-                        android:inputType="datetime"
+                        android:inputType="text"
                         android:textSize="14sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -192,7 +192,7 @@
                     android:layout_marginTop="4dp"
                     android:fontFamily="@font/nunito"
                     android:gravity="center"
-                    android:text="Pilih File Upload"
+                    android:text="@string/pilih_file_upload"
                     android:textSize="11sp" />
 
             </LinearLayout>
@@ -212,7 +212,7 @@
         android:background="@drawable/red_rounded_solid"
         android:drawableLeft="@drawable/baseline_file_upload_24"
         android:fontFamily="@font/roboto_black"
-        android:text="Kirim Laporan"
+        android:text="@string/kirim_laporan"
         android:textAllCaps="false"
         android:textColor="#ffffff"
         android:textSize="14sp"

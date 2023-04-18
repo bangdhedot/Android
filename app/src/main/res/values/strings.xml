@@ -16,4 +16,6 @@
     <string name="deskripsi_singkat_laporan">Deskripsi Singkat Laporan</string>
     <string name="judul_laporan">Judul Laporan</string>
     <string name="input_laporan">Input Laporan</string>
+    <string name="pilih_file_upload">Pilih File Upload</string>
+    <string name="kirim_laporan">Kirim Laporan</string>
 </resources>
