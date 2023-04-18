@@ -39,7 +39,7 @@ public class DashboardActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DashboardActivity.this, UploadLaporanActivity.class));
-                Toast.makeText(getApplicationContext(),"Satu", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(),"Satu", Toast.LENGTH_LONG).show();
             }
         });
 
