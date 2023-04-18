@@ -72,8 +72,8 @@
                 android:layout_margin="10dp"
                 android:hint="@string/nrp">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/idTextInputEditText"
+                <EditText
+                    android:id="@+id/idTextInputNRP"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal" />
@@ -82,7 +82,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/PasswordTextInputLayout"
+                android:id="@+id/PassTextInputLayout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -90,11 +90,11 @@
                 android:hint="@string/enter_password"
                 app:endIconMode="password_toggle">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/PasswordTextInputEditText"
+                <EditText
+                    android:id="@+id/idTextInputPass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textVisiblePassword" />
+                    android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
