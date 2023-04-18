@@ -41,7 +41,6 @@ public class CameraActivity extends AppCompatActivity implements MediaPlayer.Eve
         progressDialog = new ProgressDialog(this);
 
 
-
         BackButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,8 +52,7 @@ public class CameraActivity extends AppCompatActivity implements MediaPlayer.Eve
     }
 
     @Override
-    public void onEvent(MediaPlayer.Event event)
-    {
+    public void onEvent(MediaPlayer.Event event) {
         if (event.type == MediaPlayer.Event.Buffering) {
             if (event.getBuffering() == 100f) {
                 progressDialog.hide();
@@ -65,8 +63,7 @@ public class CameraActivity extends AppCompatActivity implements MediaPlayer.Eve
     }
 
     @Override
-    protected void onStart()
-    {
+    protected void onStart() {
         super.onStart();
 
         mediaPlayer.attachViews(videoLayout, null, false, false);
@@ -81,8 +78,7 @@ public class CameraActivity extends AppCompatActivity implements MediaPlayer.Eve
     }
 
     @Override
-    protected void onStop()
-    {
+    protected void onStop() {
         super.onStop();
 
         mediaPlayer.stop();
@@ -90,8 +86,7 @@ public class CameraActivity extends AppCompatActivity implements MediaPlayer.Eve
     }
 
     @Override
-    protected void onDestroy()
-    {
+    protected void onDestroy() {
         super.onDestroy();
 
         mediaPlayer.release();
