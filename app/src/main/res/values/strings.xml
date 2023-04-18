@@ -12,4 +12,8 @@
     <string name="NRP">1234567890</string>
     <string name="informasi_detail_laporan">Informasi Detail Laporan</string>
     <string name="Judul_laporan">Laporan</string>
+    <string name="tanggal_pelaporan">Tanggal Pelaporan</string>
+    <string name="deskripsi_singkat_laporan">Deskripsi Singkat Laporan</string>
+    <string name="judul_laporan">Judul Laporan</string>
+    <string name="input_laporan">Input Laporan</string>
 </resources>
