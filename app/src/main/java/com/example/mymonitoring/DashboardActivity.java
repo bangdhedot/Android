@@ -54,7 +54,8 @@ public class DashboardActivity extends AppCompatActivity {
         layoutThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Tiga", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(DashboardActivity.this, CameraActivity.class));
+                //Toast.makeText(getApplicationContext(),"Tiga", Toast.LENGTH_LONG).show();
             }
         });
 
