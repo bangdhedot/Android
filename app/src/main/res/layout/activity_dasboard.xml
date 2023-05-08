@@ -67,7 +67,7 @@
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/poppins_medium"
                     android:gravity="left"
-                    android:textColor="@color/teal_200"
+                    style="@style/BlackTextFive"
                     android:text="@string/names"
                     android:textSize="16sp"
                     android:textStyle="bold" />
