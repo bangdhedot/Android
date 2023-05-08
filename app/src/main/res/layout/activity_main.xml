@@ -31,7 +31,7 @@
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/monitoring_npengamanan_objek_vital_npolda_kalimantan_tengah"
                 android:textAlignment="center"
-                android:textColor="@color/black_one"
+                style="@style/BlackText"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -49,7 +49,7 @@
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/selamat_datang"
                 android:textAlignment="center"
-                android:textColor="@color/black_one"
+                style="@style/BlackTextOne"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 

@@ -128,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/names"
-                    android:textColor="@color/black"
+                    style="@style/BlackTextTwo"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -171,7 +171,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_medium"
                         android:text="Detail Informasi"
-                        android:textColor="@color/black"
+                        style="@style/BlackTextThree"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -195,7 +195,7 @@
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/poppins_medium"
                         android:text="Detail Kontak"
-                        android:textColor="@color/black"
+                        style="@style/BlackTextThree"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 

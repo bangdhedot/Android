@@ -105,7 +105,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/input_laporan"
-                    android:textColor="@color/black"
+                    style="@style/BlackTextTwo"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
