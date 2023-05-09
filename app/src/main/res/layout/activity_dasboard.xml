@@ -67,7 +67,7 @@
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/poppins_medium"
                     android:gravity="left"
-                    style="@style/BlackTextFive"
+                    style="@style/BlackTextSixteen"
                     android:text="@string/names"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -178,7 +178,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
-                        android:text="Upload Laporan Kejadian"
+                        android:text="@string/upload_laporan_kejadian"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -205,7 +205,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
-                        android:text="Profile\nUser"
+                        android:text="@string/profile_user"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -232,7 +232,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
-                        android:text="Akses\nCCTV"
+                        android:text="@string/akses_cctv"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -259,7 +259,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
-                        android:text="Keluar\nAplikasi"
+                        android:text="@string/keluar_aplikasi"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         android:textStyle="bold" />

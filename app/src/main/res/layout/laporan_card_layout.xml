@@ -36,7 +36,7 @@
             android:layout_toEndOf="@+id/imageViewOne"
             android:fontFamily="@font/roboto_black"
             android:text="@string/Judul_laporan"
-            style="@style/BlackTextTwo"
+            style="@style/BlackTextEighteen"
             android:textSize="18sp" />
 
         <TextView

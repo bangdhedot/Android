@@ -18,4 +18,8 @@
     <string name="input_laporan">Input Laporan</string>
     <string name="pilih_file_upload">Pilih File Upload</string>
     <string name="kirim_laporan">Kirim Laporan</string>
+    <string name="upload_laporan_kejadian">Upload Laporan Kejadian</string>
+    <string name="profile_user">Profile\nUser</string>
+    <string name="akses_cctv">Akses\nCCTV</string>
+    <string name="keluar_aplikasi">Keluar\nAplikasi</string>
 </resources>
